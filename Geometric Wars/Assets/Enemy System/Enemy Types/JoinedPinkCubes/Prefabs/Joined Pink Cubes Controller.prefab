@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5379753916711107875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 494197041128092310}
+  - component: {fileID: 2456594126409109459}
+  - component: {fileID: 9079584489187593512}
+  m_Layer: 0
+  m_Name: Joined Pink Cubes Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494197041128092310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5379753916711107875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2456594126409109459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5379753916711107875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3a379a06a192d4d8648aa47ec2a3ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handlerDifficultyLevel: {fileID: 0}
+  thisEnemyType: 0
+  easy: {fileID: 11400000, guid: ef6d23c13745a9d41953769b0a3c1400, type: 2}
+  normal: {fileID: 11400000, guid: ef6d23c13745a9d41953769b0a3c1400, type: 2}
+  hard: {fileID: 11400000, guid: ef6d23c13745a9d41953769b0a3c1400, type: 2}
+--- !u!114 &9079584489187593512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5379753916711107875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0b5ac1f851a749940649d4af48ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  field: {fileID: 0}
+  player: {fileID: 0}
+  pinkCubePrefab: {fileID: 4778690397656504875, guid: 11510c52079d45b4f8f4deb5f100c03c,
+    type: 3}
+  pinkCubeSpawnParticle: {fileID: 4293051585364176280, guid: 4a1e7538ae007f8448282be35a84d4ab,
+    type: 3}
+  myCubes:
+  - {fileID: 0}
+  step: 1
+  movingTime: 1
+  flipTimer: 4
+  fieldOffset: 1
